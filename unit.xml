@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0550" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-06-28T13:09:53" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="express_authorization_middleware" timestamp="2021-06-28T13:09:53" tests="7" file="/Users/dimonchik/Hackerrank/e2fca120-a957-4ce6-ba84-db9256c05e2c/test/index.spec.js" time="0.0550" failures="0">
+    <testcase name="express_authorization_middleware Should send a 403 if the x-role header is not present" time="0.0250" classname="Should send a 403 if the x-role header is not present">
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 200 for a non-protected route" time="0.0050" classname="Should send a 200 for a non-protected route">
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 403 if the x-role value is invalid" time="0.0030" classname="Should send a 403 if the x-role value is invalid">
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 403 if the x-role value does not have access to route" time="0.0030" classname="Should send a 403 if the x-role value does not have access to route">
+    </testcase>
+    <testcase name="express_authorization_middleware Should send a 201 if the x-role value has access to route" time="0.0030" classname="Should send a 201 if the x-role value has access to route">
+    </testcase>
+    <testcase name="express_authorization_middleware Should validate header for protected routes" time="0.0070" classname="Should validate header for protected routes">
+    </testcase>
+    <testcase name="express_authorization_middleware Should not require auth headers for unprotected routes" time="0.0090" classname="Should not require auth headers for unprotected routes">
+    </testcase>
+  </testsuite>
+</testsuites>
